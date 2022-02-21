@@ -3,7 +3,7 @@ import os
 import requests
 import shutil
 
-baseURL = 'https://www.artsy.net/gene/surrealism?page='
+baseURL = input('URL: ')
 
 download = []
 for pageNum in range(1, 101):
